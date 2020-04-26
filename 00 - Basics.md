@@ -63,7 +63,14 @@ If you go to go.mod file you would see something similar to the following :
 After you're done with your coding, you can use the following command to run the module which calls your **Main** function 
 
  ```
-    go mod run cloudmelon/hellowordmodule
+    go run cloudmelon/hellowordmodule
+
+ ```
+
+Otherwise, if you're already in the folder contains **go.mod** file, you can use **period** instead
+
+ ```
+    go run . 
 
  ```
 
