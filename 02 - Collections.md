@@ -3,6 +3,7 @@
 
 ## Arrays
 
+Fixed size array. 
 
     ```
     package main
@@ -32,6 +33,7 @@
 
 ## Slices 
 
+Based on the array, however can be resize as needed. 
 
     ```
     package main
@@ -64,7 +66,7 @@
 
 ## Maps 
 
-Map is like a 
+Map is like a key value dictionary 
 
    ```
     package main

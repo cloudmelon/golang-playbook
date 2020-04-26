@@ -78,6 +78,15 @@ Expecting the output would be as the following :
 <img src="Screenshots/run module.PNG" alt="run module" width="600px"/>
 
 
+If you're under window OS, using **go build** command will build up a windows executable by default. Similarily, you can use the following : 
+
+```
+    go build < full module name >
+    
+    go build . 
+
+ ```
+
 
 
 Utimately, the following commands are quite useful :
