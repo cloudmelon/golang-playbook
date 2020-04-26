@@ -71,4 +71,51 @@ Go provides two sizes of complex numbers, **complex64** and **complex128**, whos
 
 ## Working with Pointers
 
-Instead of hold the value of a variable directly, we're going to use pointer to hold up the location of location in memory
+Instead of hold the value of a variable directly, we're going to use pointer to hold up the address of a location in memory. You'll need to initialize the pointer firstly and then use asterix to deference the value as the follows : 
+
+    ```
+    package main
+
+    import "fmt"
+
+    func main() {
+
+        var firstName *string = new(string)
+        *firstName = "Melon" //dereference the value
+        fmt.Println(*firstName)
+
+    }
+
+    ```
+
+The other way : 
+
+    ```
+    package main
+
+    import "fmt"
+
+    func main() {
+
+        firstName := "Cloudmelon"
+
+        ptr := &firstName //
+        fmt.Println(ptr, *ptr)
+
+        firstName = "MSmelon"
+        fmt.Println(ptr, *ptr)
+
+        /*
+
+                Output :
+                0xc0000381f0 Cloudmelon
+                0xc0000381f0 MSmelon
+
+                The value that pointer was pointed to changed, whereas memory address doesn't change ( data stored there has been changed )
+
+        */
+    }
+
+    ```
+
+    
