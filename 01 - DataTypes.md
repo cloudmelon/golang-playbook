@@ -164,6 +164,8 @@ The other way :
 
     ```
 
+Using pointers to collaborate with data without have the copy of data around across different parts of application. 
+
 
 ## Refs 
 
