@@ -6,10 +6,11 @@ This repository stores Goland learning Playbook, this playbook is aiming to guid
 
 
 For instance,  there are the following Python docs in this repo :
-- [00 - Basics ](https://github.com/cloudmelon/golang/blob/master/00%20-%20Basics.md)
-- [01 - DataTypes ](https://github.com/cloudmelon/python-playbook/blob/master/01%20-%20Conversion.md)
-- [02 - Functions and Methods ](https://github.com/cloudmelon/python-playbook/blob/master/02%20-%20Functions.md)
-- [03 - Conditions and Loops ](https://github.com/cloudmelon/python-playbook/blob/master/03%20-%20Conditions.md)
+- [00 - Basics ](https://github.com/cloudmelon/golang-playbook/blob/master/00%20-%20Basics.md)
+- [01 - DataTypes ](https://github.com/cloudmelon/golang-playbook/blob/master/01%20-%20DataTypes.md)
+- [02 - Collections ](https://github.com/cloudmelon/golang-playbook/blob/master/02%20-%20Collections.md)
+- [03 - Conditions and Loops ](https://github.com/cloudmelon/golang-playbook/blob/master/03%20-%20Conditions%20and%20Loops.md)
+- [04 - Functions and Methods ](https://github.com/cloudmelon/golang-playbook/blob/master/04%20-%20Functions%20and%20Methods.md)
 
 
 

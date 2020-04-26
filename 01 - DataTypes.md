@@ -164,3 +164,7 @@ The other way :
 
     ```
 
+
+## Refs 
+
+https://www.interviewcake.com/concept/java/bit-shift
