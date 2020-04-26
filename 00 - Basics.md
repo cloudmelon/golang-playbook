@@ -1,4 +1,4 @@
-## Play 0 - Getting Started
+# Play 0 - Getting Started
 
 This page introduces basics of Golang as a start point. 
 
