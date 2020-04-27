@@ -115,6 +115,18 @@ If the test suite contains benchmarks, you can run these with the --bench and --
 
 More Unit test example on Go, check it out :  https://gobyexample.com/testing
 
+
+## Panic function
+
+
+    ```
+    panic("something goes wrong")
+
+    ```
+
+
+
+
 ## Best practices
 
 - Go is a new language. Although it borrows ideas from existing languages, it has unusual properties that make effective Go programs different in character from programs written in its relatives. 
