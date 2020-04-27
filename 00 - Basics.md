@@ -12,7 +12,14 @@ After install the tools, go and check the version :
       go version check the current version 
     
     ```
+    
+Install all dependencies :
 
+    ```
+      go install // install and complie packages and dependencies
+    ```
+
+To find all go packages : https://golang.org/pkg/
 
 ## Input and print out variables 
 
@@ -20,9 +27,8 @@ When you're ready, just show you some quick examples :
 
 
     ```
-   package main
-
     // this the first comment 
+    package main
 
     import (
         "fmt"
@@ -109,17 +115,17 @@ If the test suite contains benchmarks, you can run these with the --bench and --
 
 More Unit test example on Go, check it out :  https://gobyexample.com/testing
 
-## Useful Go CLI commands
+## Best practices
 
-Utimately, the following commands are quite useful :
+- Go is a new language. Although it borrows ideas from existing languages, it has unusual properties that make effective Go programs different in character from programs written in its relatives. 
 
-    ```
-      go install // install and complie packages and dependencies
-     
-      go build  // build a go program
+https://golang.org/doc/effective_go.html
 
-      go test // test go program packages
+- Go project layout : 
 
-      go run // Compile + run Go program
+https://github.com/golang-standards/project-layout
 
-    ```
+- This package implements an HTTP request pipeline suitable for use across multiple go-routines and provides the shared routines relied on by AutoRest generated Go code. https://github.com/Azure/autorest.go/
+
+https://github.com/Azure/go-autorest
+
