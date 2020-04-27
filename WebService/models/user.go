@@ -16,7 +16,7 @@ func getUsers() []*User {
 	return users
 }
 
-func addUsers(user User) (User, error) {
+func addUsers(u User) (User, error) {
 	u.ID = nextID
 	nextID++
 	users = append(users, &u)

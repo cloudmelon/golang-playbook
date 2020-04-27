@@ -1,15 +1,13 @@
 package main
 
 import (
-	"cloudmelon/webservice/models"
-	"fmt"
+	"cloudmelon/webservice/controllers"
+	"net/http"
 )
 
 func main() {
-	u := models.User{
-		ID:        2,
-		FirstName: "Lucie",
-		LastName:  "Cat",
-	}
-	fmt.Println(u)
+
+	controllers.RegisterControllers()
+	http.ListenAndServe(":3000", nil)
+
 }
