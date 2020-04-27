@@ -40,7 +40,7 @@ When you're ready, just show you some quick examples :
 
     ```
 
-## Common GO CLI comands 
+## Go application by modules
 
 If you decide to go for Go modules, you can start your Go project by using **go mod init** command, such as the following command if you wanna create a module named **cloudmelon/helloworldmodule** :
 
@@ -59,6 +59,7 @@ If you go to go.mod file you would see something similar to the following :
     go 1.14
     ```
 
+## Run Go application
 
 After you're done with your coding, you can use the following command to run the module which calls your **Main** function 
 
@@ -78,6 +79,7 @@ Expecting the output would be as the following :
 <img src="Screenshots/run module.PNG" alt="run module" width="600px"/>
 
 
+## Build Go application
 If you're under window OS, using **go build** command will build up a windows executable by default. Similarily, you can use the following : 
 
 ```
@@ -86,6 +88,24 @@ If you're under window OS, using **go build** command will build up a windows ex
     go build . 
 
  ```
+
+
+## Test Go application
+
+Use **go test** command to test the application
+
+    ```
+    go test -v
+
+    ```
+
+If the test suite contains benchmarks, you can run these with the --bench and --benchmem flags
+
+
+    ```
+    go test -v --bench . --benchmem
+
+    ```
 
 
 

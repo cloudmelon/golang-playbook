@@ -11,3 +11,14 @@ var (
 	users  []*User
 	nextID = 1
 )
+
+func getUsers() []*User {
+	return users
+}
+
+func addUsers(user User) (User, error) {
+	u.ID = nextID
+	nextID++
+	users = append(users, &u)
+	return user, nil
+}
